@@ -115,8 +115,46 @@
         </tbody>
     </table>
     <h3>This is a table that contains another table</h3>
-    <table border="2" align="center">
-        <
+    <table border="2">
+        <thead>
+            <tr>
+                <th bgcolor="cyan">Device</th>
+                <th bgcolor="cyan">Brand</th>
+                <th bgcolor="cyan" colspan="2">Specifications</th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>Smartphone</td>
+                    <td>Apple</td>
+                    <td>
+                        <table border="2">
+                            <tr>
+                                <th bgcolor="yellow">Model</th>
+                                <th bgcolor="yellow">Storage</th>
+                            </tr>
+                            <tr>
+                                <td>iPhone 12 pro</td>
+                                <td>256GB</td>
+                            </tr>
+                            <tr>
+                                <td>iPhone SE</td>
+                                <td>128GB</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Laptop</td>
+                    <td>HP</td>
+                    <td>15.6" Display</td>
+                </tr>
+                <tr>
+                    <td>Tablet</td>
+                    <td>Samsung</td>
+                    <td>10.5" Display</td>
+                </tr>
+            </tbody>
+        </thead>
     </table>
 </body>
 </html>
